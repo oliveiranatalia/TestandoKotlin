@@ -1,17 +1,12 @@
 package classesobjetos.aula16.funcionario
-
-class Funcionario {
-    var nome: String = ""
-    var sobrenome: String = ""
-    var horasTrabalhadas = 0.0
-    var valorHora = 0.0
+class Funcionario (var nome: String, var sobrenome: String, var horasTrabalhadas: Double, var valorHora: Double){
 
     fun nomeCompleto(){
         println("Nome: $nome $sobrenome")
     }
     fun calcularSalario(){
         val resultado = horasTrabalhadas * valorHora
-        print("O valor total é de R$$resultado")
+        println("O valor total é de R$$resultado")
     }
     fun incrementarHoras(novoValor: Double){
         horasTrabalhadas += novoValor
