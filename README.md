@@ -1,2 +1,2 @@
 ### Módulo Kotlin
-*exercícios simples de sintaxe. sem tratamento de exceção.*
+*exercícios e desafios usando linguagem kotlin e POO. sem tratamento de exceção.*
